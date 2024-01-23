@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search-box">
+      <div class="btns">
+        <button class="btn active" data-filter="all">ALL</button>
+        <button class="btn" data-filter="cake">CAKE</button>
+        <button class="btn" data-filter="icecream">ICE CREAM</button>
+        <button class="btn" data-filter="pizza">PIZZA</button>
+      </div>
+
+      <input type="text" id="search" />
+    </div>
+
+    <div class="images">
+      <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        data-item="cake"
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?q=80&w=1872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        data-item="cake"
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        data-item="cake"
+      />
+
+      <img src="1.jpg" alt="" data-item="icecream" />
+      <img src="2.jpg" alt="" data-item="icecream" />
+      <img src="3.jpg" alt="" data-item="pizza" />
+      <img src="4.jpg" alt="" data-item="pizza" />
+      <img
+        src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        data-item="pizza"
+      />
+      <img src="6.jpg" alt="" data-item="icecream" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#nav-tab{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    column-gap: 10px;
+}
+
+li{
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.active{
+    background-color:transparent;
+}
+
+
+
+li a {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+
+.page{
+    display: none;
+}
+
+.page-active{
+    display: block;
+}

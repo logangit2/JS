@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container{
+	height: 40px;
+	background-color: gray;
+	position: relative;
+	
+	
+}
+
+.container .progress-bar{
+	position: absolute;
+	height: 100%;
+	background-color: orange;
+	animation-duration: 3s;
+	
+}
+
+#move{
+	animation-name: demo;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes demo{
+	0%{width: 0;}
+	100%{width: 73%;}
+}

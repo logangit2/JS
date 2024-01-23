@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.spinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    border-top: 2px solid red;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.carousel{
+    /* width: 100%; */
+    height: 670px;
+    background-color: red;
+    overflow: scroll;
+    /* position: relative; */
+}
+
+.slider{
+    width: 600%;
+    height: 670px;
+    background-color: green;
+    display: flex;
+    margin-left: -100%;
+}
+
+.slider_child{
+    width: calc(100%/6);
+    height: 670px;
+    background-color: yellowgreen;
+}
+
+.buttons{
+    width: 100%;
+    height: 40px;
+    
+    position: absolute;
+    top:295px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.move_button{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

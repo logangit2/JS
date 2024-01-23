@@ -1,0 +1,23 @@
+<div class="progress-group">
+            <div class="circular-progress">
+                <span class="course-value">50%</span>
+               
+            </div>
+            <label class="text">HTML</label>
+        </div>
+
+        <div class="progress-group">
+            <div class="circular-progress">
+                <span class="course-value">50%</span>
+               
+            </div>
+            <label class="text">CSS</label>
+        </div>
+
+        <div class="progress-group">
+            <div class="circular-progress">
+                <span class="course-value">50%</span>
+               
+            </div>
+            <label class="text">JS</label>
+        </div>

@@ -1,0 +1,25 @@
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.columns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.column{
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+}    
+
+p{
+    padding: 20px 40px;
+}

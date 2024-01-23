@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+
+
+.container{
+    width: 70%;
+    height: 500px;
+    background-color: mediumseagreen;
+    overflow: hidden;
+    position: relative;
+
+}
+
+ .wrapper{
+    width: 300%;
+    display: flex;
+    transition: 1s;
+ }
+
+ .card{
+    width: calc(300%/3);
+    background-color: gray;
+ }
+
+ .indicator{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+ }
+
+ .active{
+    width: 15px;
+    height: 15px;
+    border-radius: 30%;
+ }
+
+
